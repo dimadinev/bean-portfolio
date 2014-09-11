@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: Bean Portfolio
- * Plugin URI: http://themebeans.com/plugin/portfolio-wordpress-plugin/?ref=plugin_bean_portfolios
- * Description: Enables a portfolio post type for use in our Bean WordPress Themes
- * Version: 1.4.1
- * Author: Rich Tabor / ThemeBeans
- * Author URI: http://themebeans.com/?ref=plugin_bean_portfolios
+ * Plugin URI: http://themebeans.com/plugins/bean-portfolio
+ * Description: Enables a portfolio post type.
+ * Version: 1.4.2
+ * Author: ThemeBeans
+ * Author URI: http://themebeans.com
  *
  *
  * @package Bean Plugins
@@ -191,7 +191,7 @@ class Bean_Portfolio_Post_Type
 		$args = array(
 	    		'labels' 			=> $labels,
 	    		'public' 			=> true,
-			'supports' 		=> array( 'title', 'editor', 'excerpt', 'thumbnail', 'comments'),
+			'supports' 		=> array( 'title', 'editor', 'excerpt', 'thumbnail', 'comments', 'custom-fields'),
 			'capability_type' 	=> 'post',
 			'rewrite' 		=> array("slug" => "portfolio"),
 			'menu_position' 	=> 20,
