@@ -1,9 +1,14 @@
-APR 8 2013 - Version 1.4.1
+APR 1 2015 - Version 1.5
+<ul>
+<li>Added support for thumbnails on the sorting page</li>
+</ul>
+
+APR 8 2014 - Version 1.4.1
 <ul>
 <li>Added option to disable updates</li>
 </ul>
 
-FEB 12 2013 - Version 1.4
+FEB 12 2014 - Version 1.4
 <ul>
 <li>Added support for auto activation</li>
 <li>Removed license input from settings menu</li>

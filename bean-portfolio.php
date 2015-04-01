@@ -3,7 +3,7 @@
  * Plugin Name: Bean Portfolio
  * Plugin URI: http://themebeans.com/plugins/bean-portfolio
  * Description: Enables a portfolio post type.
- * Version: 1.4.2
+ * Version: 1.5
  * Author: ThemeBeans
  * Author URI: http://themebeans.com
  *
@@ -95,10 +95,10 @@ function edd_beanportfolio_plugin_updater()
 	$license_key = trim( get_option( 'edd_beanportfolio_activate_license' ) );
 
 	$edd_updater = new EDD_SL_Plugin_Updater( EDD_BEANPORTFOLIO_TB_URL, __FILE__, array( 
-			'version' 	=> '1.4.1',
+			'version' 	=> '1.5',
 			'license' 	=> $license_key,
 			'item_name'    => EDD_BEANPORTFOLIO_NAME,
-			'author' 	     => 'Rich Tabor / ThemeBeans'
+			'author' 	     => 'ThemeBeans'
 		)
 	);
 }
@@ -406,6 +406,8 @@ class Bean_Portfolio_Post_Type
 	                        <dl class="menu-item-bar">
 
 	                            <dt class="menu-item-handle">
+
+	                            	  <span class="menu-item-image"><?php the_post_thumbnail('sml-thumbnail'); ?></span>
 
 	                                <span class="menu-item-title"><?php the_title(); ?></span>
 
