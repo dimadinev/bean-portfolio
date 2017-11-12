@@ -33,13 +33,13 @@ DEC 12 2013 - Version 1.2
 SEPT 5 2013 - Version 1.1.1
 <ul>
 <li>Performance & Maintenance</li>
-</ul>	
+</ul>
 
 SEPT 5 2013 - Version 1.1
 <ul>
 <li>Added support for editor thumbnail view</li>
-</ul>	
-	
+</ul>
+
 JUN 3 2013 - Version 1.0
 <ul>
 <li>Initial release</li>
